@@ -1,7 +1,9 @@
 
-/target/
-**/target/
-**/*.so
+/target/debug/
+/target/release/
+target/sbf-solana-solana/
+target/types/
+target/.rustc_info.json
 **/*.dylib
 **/*.dll
 **/*.exe
@@ -32,10 +34,7 @@ client/yarn.lock
 *.local
 
 
-/target/idl/
 
-
-*.json
 !Anchor.toml
 !Cargo.toml
 !rust-toolchain.toml
